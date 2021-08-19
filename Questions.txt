@@ -1,0 +1,80 @@
+CG->
+
+1 - Suppose i have running container that produced one txt file and i want to store some where how can achive this ?
+2 - how you do your deployment
+3 - I want to rout all my trafic from a application on the top of EC2 instance how can i achive this.
+4 - do you know about AWS (what services you have used)
+5 - what thinks need to keep in mind while writtin docker for microservices
+DOcker file 
+6 - have you written any docker file in stages like CICD pipeline stages ?
+7 - What the docker file contains
+8 - how you build the docker images
+9 - how you run the docker containers ? explain some keywords,
+
+10 - are you writting the cicd pipe line code or follow some templates for writing the code
+11 - what are the stages you are using to write the cicd pipeline.
+12 - what are the layers inside the docker images
+13 - How can you add the AWS password in docker run command
+
+14 - how to configure the docker to be run on AWS
+15 - what is the difference b/w ENTRYPOINT and CMD in docker file.
+
+--------------------------------
+How can we over riddedn CMD from command line during docker run command
+
+-A container’s main running process is the ENTRYPOINT and/or CMD at the end of the Dockerfile
+-You can remove unused volumes using "docker volume prune"
+
+
+
+
+
+--------------------------------------------
+
+
+Accenture -->
+How can you craete a images from a running containers
+Suppose 2 container is going to down thenby docker compose file have you create 2 new containers or it will bring it in running state
+how jenkins declarative pipeline works
+suppose 2 pods are going to down how you will bring it up
+suppose i have a image and some points i want to add in it then how we can create the updated images.
+
+how jenkins communicate with git
+Configuring GitHub
+Step 1: go to your GitHub repository and click on 'Settings'. Step 2: Click on Webhooks and then click on 'Add webhook'. Step 3: In the 'Payload URL' field, paste your Jenkins environment URL. At the end of this URL add /github-webhook/.
+
+
+If any pods down how to investigate the issue and how you will make it up
+
+Any notification tools on AWS
+Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication.
+
+HOw you configure deployment pipeline using docker and kubernetes 
+
+how can we get process name from process id
+ps --pid <pid> -o comm h
+
+how to update a container
+--------------------------------
+When working with Docker, everything revolves around images. And when you’ve used an image to deploy a container, it continues running that image version, even if a new release is existing.
+
+Since images within launched containers cannot self-update, it’s essential to use other ways to keep them up-to-date and optimize your applications’ performance. 
+
+Swap space in Linux is used when the amount of physical memory (RAM) is full. If the system needs more memory resources and the RAM is full, inactive pages in memory are moved to the swap space. While swap space can help machines with a small amount of RAM, it should not be considered a replacement for more RAM.
+
+
+
+
+
+
+---------------------------------------
+
+
+
+
+
+
+
+
+
+
