@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 hgghh
 hello sir
 how are you
 
+=======
+hello i m fine 
+aap kaise ho
+mai thik hun
+>>>>>>> 190158b7e87a45e08cc80f54bf650b949bec4069
